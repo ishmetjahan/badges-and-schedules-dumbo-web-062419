@@ -15,7 +15,8 @@ def assign_rooms (arr)
   newArr=[]
   i=1 
   arr.each do |ele|
-    newArr.push ()
-    
-    
+    newArr.push ("Hello, #{ele}! You'll be assigned to room #{i}!")
+    i +=1 
+  end
+  return newArr
 end
