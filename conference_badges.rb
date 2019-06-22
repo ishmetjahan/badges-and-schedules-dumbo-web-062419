@@ -26,5 +26,7 @@ def printer (arr)
     puts ele
   end
   assign_rooms(arr).each do |ele|
-    puts 
+    puts ele
+  end
+end
   
