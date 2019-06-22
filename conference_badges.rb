@@ -25,5 +25,6 @@ def printer (arr)
   batch_badge_creator(arr).each do |ele|
     puts ele
   end
-  assign_rooms 
+  assign_rooms(arr).each do |ele|
+    puts 
   
