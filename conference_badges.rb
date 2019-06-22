@@ -11,4 +11,4 @@ def batch_badge_creator(arr)
   return newArr
 end
 #
-def
+def assign_rooms (spec,room)
